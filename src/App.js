@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import NavBar from './components/Navbar/Navbar';
+import Myposts from './components/Profile/MyPosts/Post/Myposts';
+import Profile from './components/Profile/Profile';
+import Timer from './components/Timer/Timer';
+import Notification from './components/Notification/Notification';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-wrapper">
+      <Timer/>
+      <Notification />
+      
+      {/* <Header />
+      <NavBar />
+      <Myposts />
+      <Profile /> */}
     </div>
-  );
+  )
 }
 
 export default App;

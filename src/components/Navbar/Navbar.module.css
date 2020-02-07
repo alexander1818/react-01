@@ -1,0 +1,15 @@
+.nav {
+  grid-area: n;
+  background-color: aqua;
+}
+
+.nav_wrap {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px;
+}
+.nav__item {
+  text-decoration: none;
+  color: #ffff;
+}

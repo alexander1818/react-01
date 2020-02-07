@@ -1,0 +1,12 @@
+/* .content { */
+  /* grid-area: c; */
+  /* background-color: blueviolet; */
+ /* } */
+
+.post {
+  color: #000;
+}
+
+.post_item__img {
+  width: 50px;
+}

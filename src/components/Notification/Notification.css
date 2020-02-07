@@ -1,0 +1,10 @@
+.notification {
+    margin: 20px;
+    color: red;
+    font-size: 40px;
+    transition: 2s ease;
+  }
+  .welcome {
+    color: darkred;
+    font-size: 25px;
+  }
